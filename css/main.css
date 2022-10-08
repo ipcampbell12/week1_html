@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background: rgb(40, 40, 42);
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.container .sera {
+  margin-top: 10%;
+  margin-bottom: 15%;
+  width: 50%;
+}
+.container .sera img {
+  width: 10%;
+  height: auto;
+}
+.container .sera p {
+  width: 65%;
+}
+.container .sera .demo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  border-radius: 5em;
+  color: white;
+  font-size: 0.5em;
+  font-weight: bold;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  background: rgb(54, 150, 6);
+  width: 30%;
+  height: 20%;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+}
+.container .sera .demo .button-text {
+  align-self: center;
+  width: 90%;
+}
+.container .sera .demo .checkbox {
+  align-self: center;
+  width: 10%;
+  height: auto;
+  margin-right: 1em;
+  mix-blend-mode: multiply;
+}
+.container .sera .social-media {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
+.container .sera .social-media img {
+  width: 5%;
+  height: auto;
+}
+.container .sera .mailing-list {
+  margin-top: 1em;
+  margin-right: 2em;
+  width: 50%;
+  height: auto;
+}
+.container .sera .mailing-list label {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 0.75em;
+  font-weight: none;
+}
+.container .sera .mailing-list input {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.container .sera .mailing-list .email {
+  width: 65%;
+  line-height: 150%;
+}
+.container .sera .mailing-list input[type=submit] {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  color: white;
+  background: rgb(44, 106, 223);
+  border-radius: 0.5em;
+  line-height: 50%;
+  font-size: 0.5em;
+}
+.container .sera .copyright {
+  font-size: 0.75em;
+}
+.container .options {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  margin-right: 0;
+  padding: 0;
+  width: 50%;
+}
+.container .options .options-list {
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 50%;
+}
+.container .options .options-list h6 {
+  font-weight: bold;
+  font-size: 1em;
+  padding-right: 0.25em;
+  margin-bottom: 0;
+}
+.container .options .options-list ul {
+  list-style: none;
+  padding: 0;
+}
+.container .options .options-list ul li {
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.25em;
+  border-bottom: 0.5px solid white;
+  font-size: 0.75em;
+  line-height: 2em;
+}
+
+/*# sourceMappingURL=main.css.map */

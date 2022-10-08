@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    background: rgb(40, 40, 42);
+    color: white;
+}
+
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+
+    .sera {
+
+        margin-top: 10%;
+        margin-bottom: 15%;
+        width: 50%;
+
+
+
+        img {
+            width: 10%;
+            height: auto;
+
+
+        }
+
+        p {
+            width: 65%;
+        }
+
+        .demo {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            margin-right: 1em;
+            border-radius: 5em;
+            color: white;
+            font-size: .5em;
+            font-weight: bold;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+            background: rgb(54, 150, 6);
+            width: 30%;
+            height: 20%;
+            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .5);
+            display: flex;
+            flex-direction: row;
+
+
+            .button-text {
+                align-self: center;
+                width: 90%;
+
+            }
+
+            .checkbox {
+                align-self: center;
+                width: 10%;
+                height: auto;
+                margin-right: 1em;
+                mix-blend-mode: multiply;
+            }
+
+
+
+
+
+        }
+
+        .social-media {
+            margin-top: 1.5em;
+            margin-bottom: 0;
+
+            img {
+                width: 5%;
+                height: auto;
+
+
+            }
+        }
+
+        .mailing-list {
+            margin-top: 1em;
+            margin-right: 2em;
+            width: 50%;
+            height: auto;
+
+            label {
+                margin-top: 1em;
+                margin-bottom: 1em;
+                font-size: .75em;
+                font-weight: none;
+
+            }
+
+            input {
+                margin-top: 1em;
+                margin-bottom: 1em;
+
+            }
+
+            .email {
+                width: 65%;
+                line-height: 150%;
+            }
+
+            input[type="submit"] {
+                padding-left: 2.5em;
+                padding-right: 2.5em;
+                padding-top: 1.25em;
+                padding-bottom: 1.25em;
+                color: white;
+                background: rgb(44, 106, 223);
+                border-radius: .5em;
+                line-height: 50%;
+                font-size: .5em;
+
+            }
+        }
+
+        .copyright {
+            font-size: .75em;
+        }
+    }
+
+    .options {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        margin-top: 10%;
+        margin-bottom: 15%;
+        margin-right: 0;
+        padding: 0;
+        width: 50%;
+
+        .options-list {
+            margin-left: 1em;
+            margin-right: 1em;
+            width: 50%;
+
+            h6 {
+                font-weight: bold;
+                font-size: 1em;
+                padding-right: .25em;
+                margin-bottom: 0;
+            }
+
+            ul {
+
+                list-style: none;
+                padding: 0;
+
+
+                li {
+                    margin-top: .5em;
+                    margin-right: .5em;
+                    margin-bottom: .5em;
+                    padding: .25em;
+                    border-bottom: .5px solid white;
+                    font-size: .75em;
+                    line-height: 2em;
+                }
+            }
+        }
+
+
+
+
+    }
+
+}
